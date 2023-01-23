@@ -1,1 +1,0 @@
-/* Crea tu propia lógica para hacer una splash page que desaparezca */
