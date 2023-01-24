@@ -160,7 +160,7 @@ body {
 
 /* ------------------------------ Sección 3 ------------------------------ */
 
-h2 {
+.recentprojects h2 {
 font-size: 40px;
 margin-left: 220px; 
 font-weight: 540;
@@ -189,7 +189,7 @@ font-weight: 540;
   padding: 20px;
 }
 
-h3 {
+.projects h3 {
   text-align: left;
   padding: 5px 20px;
   font-size: 24px;
@@ -208,8 +208,79 @@ h3 {
 }
 
 /* ------------------------------ Sección 4 ------------------------------ */
+.opinions {
+  margin-left: 100px; 
+  margin-right: 100px;
+}
 
-/* Your CSS code goes here */
+.opinionclients {
+  background-image: url(../images/testimonial-section/orbit.png);
+  background-size: 1320px;
+  background-repeat: no-repeat;
+  background-color: #292e47;
+  padding: 80px 50px;
+  height: 615px;
+  background-position: center;
+}
+
+.opinionclients {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+}
+
+.opinionleft {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opinioncenter {
+  /* background-color: blue; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;;
+}
+
+.opinioncenter img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80%;
+}
+
+.opinionright {
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  width: 150px;
+}
+
+.icon1 {
+  padding-bottom: 180px;
+}
+
+.titleopinions{
+  color: #ffffff;
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 100px;
+  font-weight: bold;
+}
+
+.opinioncenter h3{
+  color: #ffc600;
+  font-size: 30px;
+  font-weight: normal;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 160px;
+}
 
 /* ------------------------------ Sección 5 ------------------------------ */
 
