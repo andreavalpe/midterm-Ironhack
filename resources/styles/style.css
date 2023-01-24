@@ -41,7 +41,7 @@ body {
   align-items: center;
 }
 
-.structurenav {
+.structureNav {
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -49,20 +49,20 @@ body {
   align-items: center;
 }
 
-.structurenav li {
+.structureNav li {
   text-decoration: none;
   list-style-type: none;
   line-height: 16px;
   padding: 16px;
 }
 
-.structurenav a {
+.structureNav a {
   text-decoration: none;
   color: #6b708d;
   font-weight: 500;
 }
 
-.structurenav a:hover, a:active {
+.structureNav a:hover, a:active {
   color: #072ac8;
 }
 
@@ -84,18 +84,18 @@ body {
 }
 
 /* ------------------------------ Sección 1 ------------------------------ */
- .generalinformation{
+ .generalInformation{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.divinformation h1 {
+.information h1 {
   font-size: 60px;
   padding-top: 80px;
 } 
 
-.divinformation p {
+.information p {
   font-size: 20px;
   opacity: .6;
   padding-top: 30px;
@@ -103,11 +103,11 @@ body {
   line-height: 1.5;
 }
 
-.divinformation {
+.information {
   width: 500px;
 }
 
-.centralimg {
+.centralImg {
   width: 600px;
   height: 700px;
   background-image: url(../images/hero-section/hero-image.png);
@@ -116,7 +116,7 @@ body {
   position: relative;
 }
 
-.boximgleft {
+.boxingLeft {
   float: left;
   width: 300px;
   position: absolute;
@@ -124,34 +124,34 @@ body {
   left: -80px;
 }
 
-.boximgright {
+.boxingRight {
   width: 300px;
   position: absolute;
   bottom: -80px;
   right: -60px;
 }
 
-.seeourwork {
+.seeOurWork {
   text-decoration: none; 
   padding-right: 10px; 
 }
 
-.getintouch {
+.getInTouch {
   text-decoration: none;
   background-color: #072ac8;
   color: #ffffff;
   padding: 15px; 
 }
-.workboxes {
+.workBoxes {
   padding-top: 50px;
 }
 
-.getintouch:hover {
+.getInTouch:hover {
   background-color: #292e47;
 }
 /* ------------------------------ Sección 2 ------------------------------ */
 
-.logomarcas {
+.logoMarcas {
   justify-content: space-around;
   flex-direction: row;
   display: flex;
@@ -160,7 +160,7 @@ body {
 
 /* ------------------------------ Sección 3 ------------------------------ */
 
-.recentprojects h2 {
+.projectsAndServices h2 {
 font-size: 40px;
 margin-left: 220px; 
 font-weight: 540;
@@ -175,21 +175,23 @@ font-weight: 540;
   padding: 10px 100px;
 }
 
-.projects img {
+.projectsImg {
   width: 330px;
   height: 230px;
 }
 
-.projects {
-  background-color: #ffffff;; 
+.projectsServices {
+  background-color: #ffffff;
+  width: 330px;
+  height: 320px;
 }
 
-.projects p {
+.projectsServices p {
   text-align: left;
   padding: 20px;
 }
 
-.projects h3 {
+.projectsServices h3 {
   text-align: left;
   padding: 5px 20px;
   font-size: 24px;
@@ -197,7 +199,7 @@ font-weight: 540;
   font-weight: 500;
 }
 
-.projects button {
+.projectsServices button {
   text-decoration: none;
   border: none;
   background-color: #ffffff;
@@ -211,9 +213,6 @@ font-weight: 540;
 .opinions {
   margin-left: 100px; 
   margin-right: 100px;
-}
-
-.opinionclients {
   background-image: url(../images/testimonial-section/orbit.png);
   background-size: 1320px;
   background-repeat: no-repeat;
@@ -223,34 +222,34 @@ font-weight: 540;
   background-position: center;
 }
 
-.opinionclients {
+.opinionClients {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 100%;
   grid-gap: 10px;
 }
 
-.opinionleft {
+.opinionLeft {
   /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.opinioncenter {
+.opinionCenter {
   /* background-color: blue; */
   align-items: center;
   display: flex;
   flex-direction: column;;
 }
 
-.opinioncenter img {
+.opinionCenter img {
   width: 80px;
   height: 80px;
   border-radius: 80%;
 }
 
-.opinionright {
+.opinionRight {
   /* background-color: pink; */
   display: flex;
   flex-direction: column;
@@ -265,7 +264,7 @@ font-weight: 540;
   padding-bottom: 180px;
 }
 
-.titleopinions{
+.titleOpinions{
   color: #ffffff;
   text-align: left;
   font-size: 40px;
@@ -273,7 +272,7 @@ font-weight: 540;
   font-weight: bold;
 }
 
-.opinioncenter h3{
+.opinionCenter h3{
   color: #ffc600;
   font-size: 30px;
   font-weight: normal;
@@ -284,7 +283,14 @@ font-weight: 540;
 
 /* ------------------------------ Sección 5 ------------------------------ */
 
-/* Your CSS code goes here */
+.servicesImg {
+  width: 60px;
+  height: 80px;
+  text-align: center;
+  justify-content: center;
+  background-color: #d1edff ;
+  border-radius: 100%;
+}
 
 /* ------------------------------ Sección 6 ------------------------------ */
 
