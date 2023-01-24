@@ -28,31 +28,77 @@ body {
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Navbar ------------------------------ */
+/* ------------------------------ Cabecera ------------------------------ */
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.structurenav {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.structurenav li {
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 1rem;
+  padding: 1rem;
+}
+
+.structurenav a {
+  text-decoration: none;
+}
+
+.structurenav a:hover, a:active {
+  color: #072ac8;
+}
+
+.navbar button {
+  background-color: #072ac8;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none; 
+}
+
+.navbar a {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar button:hover{
+  background-color: #000000da;
+}
+
+/* ------------------------------ Sección 1 ------------------------------ */
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Header ------------------------------ */
+/* ------------------------------ Sección 2 ------------------------------ */
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Partners ------------------------------ */
+/* ------------------------------ Sección 3 ------------------------------ */
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Recent projects ------------------------------ */
+/* ------------------------------ Sección 4 ------------------------------ */
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Client reviews ------------------------------ */
+/* ------------------------------ Sección 5 ------------------------------ */
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Services ------------------------------ */
-
-/* Your CSS code goes here */
-
-/* ------------------------------ Questions form ------------------------------ */
+/* ------------------------------ Sección 6 ------------------------------ */
 
 /* Your CSS code goes here */
 
