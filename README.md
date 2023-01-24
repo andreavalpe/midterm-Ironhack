@@ -108,14 +108,15 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Lunes 23, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [x] Realizar estructura html de contact us-index.html.
+- [ ] Realizar pruebas de java para imitar la cabecera y el pie de página.
 
 #### Day Two
 
 ###### Martes 24, Enero 2023
+
+- [ ] Acabar estructura html de project.
+- [ ] Acabar toda la parte css de index, contact-us y project.
 
 #### Day Three
 
