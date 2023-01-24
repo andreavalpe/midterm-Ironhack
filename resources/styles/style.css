@@ -10,12 +10,9 @@
   box-sizing: border-box;
 }
 
-.marginsection {
-  margin: 34px 200px; 
-}
-
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f2f4fc;
 }
 
 
@@ -39,8 +36,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 32px;
+  padding: 70px 20px;
   height: auto;
+  align-items: center;
 }
 
 .structurenav {
@@ -60,6 +58,8 @@ body {
 
 .structurenav a {
   text-decoration: none;
+  color: #6b708d;
+  font-weight: 500;
 }
 
 .structurenav a:hover, a:active {
@@ -72,7 +72,6 @@ body {
   width: 120px;
   height: 40px;
   border: none; 
-  margin-right: 70px;
 }
 
 .navbar a {
@@ -81,7 +80,7 @@ body {
 }
 
 .navbar button:hover{
-  background-color: #000000da;
+  background-color: #292e47;
 }
 
 /* ------------------------------ Sección 1 ------------------------------ */
@@ -89,7 +88,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 100px 300px;
 }
 
 .divinformation h1 {
@@ -111,9 +109,9 @@ body {
 
 .centralimg {
   width: 600px;
-  height: 600px;
+  height: 700px;
   background-image: url(../images/hero-section/hero-image.png);
-  background-size: 500px;
+  background-size: 550px;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -122,14 +120,14 @@ body {
   float: left;
   width: 300px;
   position: absolute;
-  top: -50px;
+  top: -30px;
   left: -80px;
 }
 
 .boximgright {
   width: 300px;
   position: absolute;
-  bottom: -100px;
+  bottom: -80px;
   right: -60px;
 }
 
@@ -147,17 +145,24 @@ body {
 .workboxes {
   padding-top: 50px;
 }
+
+.getintouch:hover {
+  background-color: #292e47;
+}
 /* ------------------------------ Sección 2 ------------------------------ */
 
 .logomarcas {
   justify-content: space-around;
   flex-direction: row;
   display: flex;
+  margin: 100px; 
 }
 
 /* ------------------------------ Sección 3 ------------------------------ */
 
-/* Your CSS code goes here */
+.temporal img {
+  width: 100px;
+}
 
 /* ------------------------------ Sección 4 ------------------------------ */
 
