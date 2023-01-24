@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+.marginsection {
+  margin: 34px 200px; 
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -35,7 +39,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 32px;
+  height: auto;
 }
 
 .structurenav {
@@ -49,8 +54,8 @@ body {
 .structurenav li {
   text-decoration: none;
   list-style-type: none;
-  line-height: 1rem;
-  padding: 1rem;
+  line-height: 16px;
+  padding: 16px;
 }
 
 .structurenav a {
@@ -63,10 +68,11 @@ body {
 
 .navbar button {
   background-color: #072ac8;
-  color: white;
-  width: 100px;
+  color: #ffffff;
+  width: 120px;
   height: 40px;
   border: none; 
+  margin-right: 70px;
 }
 
 .navbar a {
@@ -79,9 +85,68 @@ body {
 }
 
 /* ------------------------------ Sección 1 ------------------------------ */
+ .generalinformation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px 300px;
+}
 
-/* Your CSS code goes here */
+.divinformation h1 {
+  font-size: 60px;
+  padding-top: 80px;
+} 
 
+.divinformation p {
+  font-size: 20px;
+  opacity: .6;
+  padding-top: 30px;
+  padding-right: 66px;
+  line-height: 1.5;
+}
+
+.divinformation {
+  width: 500px;
+}
+
+.centralimg {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/hero-section/hero-image.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.boximgleft {
+  float: left;
+  width: 300px;
+  position: absolute;
+  top: -50px;
+  left: -80px;
+}
+
+.boximgright {
+  width: 300px;
+  position: absolute;
+  bottom: -100px;
+  right: -60px;
+}
+
+.seeourwork {
+  text-decoration: none; 
+  padding-right: 10px; 
+}
+
+.getintouch {
+  text-decoration: none;
+  background-color: #072ac8;
+  color: #ffffff;
+  padding: 15px; 
+}
+.workboxes {
+  padding-top: 50px;
+}
 /* ------------------------------ Sección 2 ------------------------------ */
 
 /* Your CSS code goes here */
