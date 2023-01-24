@@ -155,13 +155,56 @@ body {
   justify-content: space-around;
   flex-direction: row;
   display: flex;
-  margin: 100px; 
+  margin: 76px 100px; 
 }
 
 /* ------------------------------ Sección 3 ------------------------------ */
 
-.temporal img {
-  width: 100px;
+h2 {
+font-size: 40px;
+margin-left: 220px; 
+font-weight: 540;
+}
+
+.container {
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  margin: 50px 100px; 
+  align-items: center;
+  padding: 10px 100px;
+}
+
+.projects img {
+  width: 330px;
+  height: 230px;
+}
+
+.projects {
+  background-color: #ffffff;; 
+}
+
+.projects p {
+  text-align: left;
+  padding: 20px;
+}
+
+h3 {
+  text-align: left;
+  padding: 5px 20px;
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.projects button {
+  text-decoration: none;
+  border: none;
+  background-color: #ffffff;
+  color: #072ac8;
+  font-size: 16px;
+  text-align: left;
+  padding: 20px;
 }
 
 /* ------------------------------ Sección 4 ------------------------------ */
