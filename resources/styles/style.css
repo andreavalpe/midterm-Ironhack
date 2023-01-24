@@ -149,7 +149,11 @@ body {
 }
 /* ------------------------------ Sección 2 ------------------------------ */
 
-/* Your CSS code goes here */
+.logomarcas {
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+}
 
 /* ------------------------------ Sección 3 ------------------------------ */
 
