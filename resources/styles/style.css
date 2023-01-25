@@ -282,7 +282,7 @@ padding-top: 50px;
 }
 
 .kristinImg {
-  padding-top: 160px;
+  padding-top: 140px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -350,11 +350,72 @@ padding-top: 50px;
 }
 /* ------------------------------ Sección 6 ------------------------------ */
 
-/* Your CSS code goes here */
+.questions {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.yellowSection {
+  background-color: #ffc600 ;
+  height: 400px;
+}
+
+.yellowSection h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.yellowSection p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  color: #6b708d;
+}
+
+.yellowForm input {
+  background-image: url(../images/newsletter/icon/mail.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 30px;
+  width: 400px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6b708d;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.yellowForm {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding-top: 50px;
+  margin: 2px 350px; 
+}
+
+.yellowForm button {
+  background-color: #072ac8;
+  color: #ffffff;
+  border: none;
+  height: 70px;
+  width: 160px;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.enterYourEmail {
+  text-align: center;
+  padding-left: 80px;
+}
+
 
 /* ------------------------------ Footer ------------------------------ */
 
-/* Your CSS code goes here */
+
 
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
