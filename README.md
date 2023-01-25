@@ -108,19 +108,22 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Lunes 23, Enero 2023
 
-- [x] Realizar estructura html de contact us-index.html.
-- [ ] Realizar pruebas de java para imitar la cabecera y el pie de página.
+- [x] Realizar estructura html de contact us e index.html.
+- [x] Hacer pruebas de java para imitar la cabecera y el pie de página.
 
 #### Day Two
 
 ###### Martes 24, Enero 2023
 
 - [ ] Acabar estructura html de project.
-- [ ] Acabar toda la parte css de index, contact-us y project.
+- [x] Empezar a darle estructura a la parte css de index.html.
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
+
+- [ ] Acabar de estilar y perfeccionar en css.
+- [ ] Hacer el fetch para poder mirar mañana el proyecto avanzado.
 
 #### Day Four
 

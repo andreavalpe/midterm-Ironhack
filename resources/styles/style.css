@@ -155,7 +155,7 @@ body {
   justify-content: space-around;
   flex-direction: row;
   display: flex;
-  margin: 76px 100px; 
+  margin: 100px; 
 }
 
 /* ------------------------------ Sección 3 ------------------------------ */
@@ -164,6 +164,7 @@ body {
 font-size: 40px;
 margin-left: 220px; 
 font-weight: 540;
+padding-top: 50px;
 }
 
 .container {
@@ -215,7 +216,7 @@ font-weight: 540;
   background-size: 1320px;
   background-repeat: no-repeat;
   background-color: #292e47;
-  padding: 80px 50px;
+  padding: 80px 100px;
   height: 615px;
   background-position: center;
 }
@@ -242,8 +243,8 @@ font-weight: 540;
 }
 
 .opinionCenter img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 80%;
 }
 
@@ -272,29 +273,80 @@ font-weight: 540;
 
 .opinionCenter h3{
   color: #ffc600;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: normal;
   justify-content: center;
   align-items: center;
-  padding-bottom: 160px;
+  text-align: center;
+  padding-top:  80px;
+}
+
+.kristinImg {
+  padding-top: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.kristinImg p {
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+.kristinImg span {
+  color: #a2d6f9; 
 }
 
 /* ------------------------------ Sección 5 ------------------------------ */
 
 .servicesImg {
   width: 60px;
-  height: 80px;
+  height: 60px;
   text-align: center;
   justify-content: center;
-  background-color: #d1edff ;
-  border-radius: 100%;
-  padding-left: 10px;
+  padding-top: 20px;
 }
 
 .ourServiceBox {
   width: 330px;
   height: 320px;
   background-color: #ffffff;
+}
+
+.ourServiceBox h3 {
+  text-align: left;
+  padding: 5px 30px;
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.ourServiceBox p {
+  text-align: left;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourServiceBox a {
+  text-decoration: none;
+  border: none;
+  color: #072ac8;
+  font-size: 16px;
+  text-align: left;
+  padding: 30px;
+}
+
+.divImg {
+  padding-left: 8px;
+  height: 80px;
+  width: 80px;
+  background-color: #d1edff;
+  border-radius: 100px;
+  margin: 20px; 
 }
 /* ------------------------------ Sección 6 ------------------------------ */
 
