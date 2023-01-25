@@ -204,9 +204,10 @@ body {
   border: none;
   background-color: #ffffff;
   color: #072ac8;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   padding: 20px;
+  font-weight: 600;
 }
 
 /* ------------------------------ Sección 4 ------------------------------ */
@@ -334,9 +335,10 @@ body {
   text-decoration: none;
   border: none;
   color: #072ac8;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   padding: 30px;
+  font-weight: 500;
 }
 
 .divImg {
@@ -487,7 +489,7 @@ body {
 
 /* ------------------------------ Project main ------------------------------ */
 
-/* Your CSS code goes here */
+
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */

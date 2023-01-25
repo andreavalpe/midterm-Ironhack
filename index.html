@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle Agency</title>
     <link rel="stylesheet" href="resources/styles/style.css" />
+    <script src="./resources/js/index.js"> </script>
   </head>
+
   <body>
 
     <header> <!-- cabecera -->
@@ -54,21 +56,22 @@
           <img class="projectsImg" src="./resources/images/projects-section/1.jpg" alt="simplify">
           <h3> Simplify </h3>
           <p> Ui Design & App Development </p>
-          <a href="./project.html"> <button> Learn More </button></a>
+          <!-- <a href="./project.html"> <button> Learn More </button></a> -->
+          <a onclick="sectionProjects('project.html?param1=1')"> <button> Learn More </button> </a>
         </div>
 
         <div class="projectsServices"> <!--segundo proyecto Dashcoin-->
           <img class="projectsImg" src="./resources/images/projects-section/2.jpg" alt="dashcoin">
           <h3> Dashcoin </h3>
           <p> Web Development </p>
-          <a href="./project.html"> <button> Learn More </button></a>
+          <a onclick="sectionProjects('project.html?param1=2')"> <button> Learn More </button></a>
         </div>
 
         <div class="projectsServices"> <!--segundo proyecto vectorify-->
           <img class="projectsImg" src="./resources/images/projects-section/3.jpg" alt="vectorify">
           <h3> Vectorify </h3>
           <p> User Experience Design </p>
-          <a href="./project.html"> <button> Learn More </button></a>
+          <a onclick="sectionProjects('project.html?param1=3')"> <button> Learn More </button></a>
         </div>
       </div>
     </section>
