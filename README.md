@@ -115,17 +115,19 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Martes 24, Enero 2023
 
-- [ ] Acabar estructura html de project.
 - [x] Empezar a darle estructura a la parte css de index.html.
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
 
-- [ ] Acabar de estilar y perfeccionar en css.
+- [x] Seguir estilando y perfeccionar en css.
 - [ ] Hacer el fetch para poder mirar mañana el proyecto avanzado.
 
 #### Day Four
+
+- [ ] Acabar de perfeccionar el css y el js.
+- [ ] Hacer el mediaqueries.
 
 ###### Jueves 26, Enero 2023
 
@@ -160,7 +162,7 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 <!-- ACKNOWLEDGMENTS -->
 
-## agradecimientos
+## Agradecimientos
 
 La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
 
