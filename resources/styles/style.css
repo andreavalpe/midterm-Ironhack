@@ -84,6 +84,7 @@ body {
 }
 
 /* ------------------------------ Sección 1 ------------------------------ */
+
  .generalInformation{
   display: flex;
   flex-direction: row;
@@ -161,10 +162,10 @@ body {
 /* ------------------------------ Sección 3 ------------------------------ */
 
 .projectsAndServices h2 {
-font-size: 40px;
-margin-left: 220px; 
-font-weight: 540;
-padding-top: 50px;
+  font-size: 40px;
+  margin-left: 220px; 
+  font-weight: 540;
+  padding-top: 50px;
 }
 
 .container {
@@ -209,6 +210,7 @@ padding-top: 50px;
 }
 
 /* ------------------------------ Sección 4 ------------------------------ */
+
 .opinions {
   margin-left: 100px; 
   margin-right: 100px;
@@ -229,14 +231,12 @@ padding-top: 50px;
 }
 
 .opinionLeft {
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .opinionCenter {
-  /* background-color: blue; */
   align-items: center;
   display: flex;
   flex-direction: column;;
@@ -249,7 +249,6 @@ padding-top: 50px;
 }
 
 .opinionRight {
-  /* background-color: pink; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -384,7 +383,7 @@ padding-top: 50px;
   height: 70px;
   align-items: center;
   justify-content: center;
-  border: 1px solid #6b708d;
+  border: 1px solid #cccccc;
   text-align: left;
   display: flex;
   flex-direction: row;

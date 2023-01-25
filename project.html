@@ -5,30 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="resources/styles/style.css" />
 </head>
 <body>
+
     <header> <!-- cabecera -->
-        <nav>
-            <img src="./resources/images/logos/circle.svg" alt="logo-circle">
-            <ul>
-                <li><a href="#"> Home </a></li>
+        <nav class="navbar">
+            <a href="#"> <img src="./resources/images/logos/circle.svg" alt="logo-circle"> </a>
+            <ul class="structureNav">
+                <li><a href="./index.html"> Home </a></li>
                 <li><a href="#"> Projects </a></li>
                 <li><a href="#"> Services </a></li>
             </ul>
-            <a href="./contact-us.html"> <button> Contact Us </button></a>
+            <a href="./contact-us.html"> <button class="buttonblue"> Contact Us </button></a>
         </nav>
     </header>
-    <tfoot> <!--  pie de página -->
-        <img src="./resources/images/logos/circle.svg" alt="logo"></br>
-        <adress> 2972 Westheimer Rd. Santa Ana, </br> Illinois 85486 </adress>
-        <ul>
-            <li><a href="#"> Team </a></li>
-            <li><a href="#"> Services </a></li>
-            <li><a href="#"> About Us </a></li>
-            <li><a href="#"> Press </a></li>
-            <li><a href="#"> Projects </a></li>
-            <li><a href="#"> Privacy Policy </a></li>
-        </ul>
-    </tfoot>
+
+
+
+    <footer class="footer"> <!--  pie de página -->
+        <div class="footerContainer">
+            <div class="footerAdress">
+                <img src="./resources/images/logos/circle.svg" alt="logo"></br>
+                <adress> 2972 Westheimer Rd. Santa Ana, </br> Illinois 85486 </adress>
+            </div>
+            <div class="footerList">
+                <ul>
+                    <li><a href="#"> Team </a></li>
+                    <li><a href="#"> Services </a></li>
+                    <li><a href="#"> About Us </a></li>
+                    <li><a href="#"> Press </a></li>
+                    <li><a href="#"> Projects </a></li>
+                    <li><a href="#"> Privacy Policy </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
