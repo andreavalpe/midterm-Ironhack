@@ -182,8 +182,6 @@ font-weight: 540;
 
 .projectsServices {
   background-color: #ffffff;
-  width: 330px;
-  height: 320px;
 }
 
 .projectsServices p {
@@ -290,8 +288,14 @@ font-weight: 540;
   justify-content: center;
   background-color: #d1edff ;
   border-radius: 100%;
+  padding-left: 10px;
 }
 
+.ourServiceBox {
+  width: 330px;
+  height: 320px;
+  background-color: #ffffff;
+}
 /* ------------------------------ Sección 6 ------------------------------ */
 
 /* Your CSS code goes here */
