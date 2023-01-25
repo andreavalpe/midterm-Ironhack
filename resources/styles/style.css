@@ -497,21 +497,57 @@ padding-top: 50px;
 /* ------------------------------ Form ------------------------------ */
 
 .titleForm h2 {
-font-size: 50px;
-text-align: left;
-margin-left: 180px;
-margin-right: 100px;
-padding-top: 100px;
-padding-bottom: 100px;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 180px;
+  margin-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .contactUsDiv {
   width: 1200px;
   height: 600px;
   align-items: center;
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+
+.containerForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat (4, auto);
+  grid-gap: 20px;
+}
+
+.containerForm label {
+  color: #6b708d;
+  font-size: 20px;
+}
+
+.containerForm input, textarea {
+  background-color: #e4e6f0;  
+  border: none; 
+  height: 80px;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.containerForm textarea {
+  padding-top: 10px;
+}
+
+.containerForm button {
+  text-decoration: none;
+  border: none;
+  background-color: #072ac8;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  height: 80px;
+}
+
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */

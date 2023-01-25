@@ -24,21 +24,22 @@
     <div class="titleForm">
         <h2> Contact Us </h2>
     </div>
-    <div class="contactUsDiv"
-    <form> <!--formulario-->
-        <label for="name"> Full Name </label>
-        <input type="text" name="name" placeholder="Enter your full name" required>
-    
+   
+    <div class="contactUsDiv">
+    <form class="containerForm"> <!--formulario-->
+        <label style="grid-column: span 2" for="name"> Full Name * </label>
+        <input style="grid-column: span 2" type="text" name="name" placeholder="Enter your full name" required>
+        
         <label for="email"> Email </label>
-        <input type="email" name="email" placeholder="Enter your email">
-    
         <label for="phone"> Phone </label>
+
+        <input type="email" name="email" placeholder="Enter your email">
         <input type="tel" placeholder="Enter your phone" name="phone">
     
-        <label for="message"> Massage </label>
-        <textarea  name="message" rows="4" cols="50" placeholder="Write your message here..." required></textarea>
+        <label for="message"> Message * </label>
+        <textarea style="grid-column: span 2" name="message" rows="4" cols="50" placeholder="Write your message here..." required></textarea>
     
-        <button type="submit"> Submit </button>
+        <button style="grid-column: span 2" type="submit"> Submit </button>
     </form>
     </div>
 
