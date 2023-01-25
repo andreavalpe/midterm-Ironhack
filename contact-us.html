@@ -13,7 +13,7 @@
         <nav class="navbar">
             <a href="#"> <img src="./resources/images/logos/circle.svg" alt="logo-circle"> </a>
             <ul class="structureNav">
-                <li><a href="#"> Home </a></li>
+                <li><a href="index.html"./> Home </a></li>
                 <li><a href="#"> Projects </a></li>
                 <li><a href="#"> Services </a></li>
             </ul>
@@ -21,23 +21,27 @@
         </nav>
     </header>
     
-    <h2> Contact Us </h2>
+    <div class="titleForm">
+        <h2> Contact Us </h2>
+    </div>
+    <div class="contactUsDiv"
     <form> <!--formulario-->
-        <label for="name"> Enter your full name </label>
-        <input type="text" name="name" required>
+        <label for="name"> Full Name </label>
+        <input type="text" name="name" placeholder="Enter your full name" required>
     
-        <label for="email"> Enter your email </label>
-        <input type="email" name="email">
+        <label for="email"> Email </label>
+        <input type="email" name="email" placeholder="Enter your email">
     
-        <label for="phone"> Enter your phone </label>
-        <input type="tel" name="phone">
+        <label for="phone"> Phone </label>
+        <input type="tel" placeholder="Enter your phone" name="phone">
     
-        <label for="message"> Write your message here... </label>
-        <textarea  name="message" rows="4" cols="50" required></textarea>
+        <label for="message"> Massage </label>
+        <textarea  name="message" rows="4" cols="50" placeholder="Write your message here..." required></textarea>
     
         <button type="submit"> Submit </button>
     </form>
-  
+    </div>
+
     <footer class="footer"> <!--  pie de página -->
         <div class="footerContainer">
             <div class="footerAdress">
