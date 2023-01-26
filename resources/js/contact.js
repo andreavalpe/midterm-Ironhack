@@ -19,25 +19,29 @@ function sendForm () {
         "message": message.value,
     };
     // console.log (formInfo);
-
-    // recuperar la api para subir 
-    fetch('https://jsonplaceholder.typicode.com/posts', {
-         method: "POST", //este método se usa para subirlo a la api
-         body: JSON.stringify(formInfo),
-         headers: { "Content-Type": "application/json" }
-     }) .then(response => {
-         document.getElementById("alert").className = "submit";
-         document.getElementById("alert").innerHTML ="Formulario enviado correctamente";
-         // console.log (response.json());
-         response.json();
-        })
-        .catch(error => {
-         document.getElementById("alert").className = "error";
-         document.getElementById("alert").innerHTML ="Opps! Hay algún error en el formulario";
-        });
+    //volvemos a acceder a los elementos del html usando el Dom
+    let form = document.getElementById("form");
+//     //como queremos que el formulario tenga en cuenta todas sus casillas usaremos un condicional
+    if (form.checkValidity()) {
+//     // recuperar la api para subir 
+//     //volvemos a usar el json como en project.js y index.js pero en este caso cambia a post porque estamos subiéndolo y no recuperándolo
+        fetch('https://jsonplaceholder.typicode.com/posts', {
+            method: "POST", //este método se usa para subirlo a la api
+            body: JSON.stringify(formInfo),
+            headers: { "Content-Type": "application/json" }
+        }) .then(response => {
+            document.getElementById("alert").className = "submit";
+            document.getElementById("alert").innerHTML ="Form submitted successfully";
+//          // console.log (response.json());
+            response.json();
+        }) .catch(error => {
+            document.getElementById("alert").className ="error";
+            document.getElementById("alert").className ="Opps! There is an error in the form";
+         });
+     } else {
+             document.getElementById("alert").className = "error";
+             document.getElementById("alert").innerHTML ="Opps! There is an error in the form";
+         }
     return false;
-} 
-
-
-
+ }
 // https://my-json-server.typicode.com/typicode/demo/posts prueba realizada con la demo para ver que funcionará

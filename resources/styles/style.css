@@ -86,9 +86,11 @@ body {
 /* ------------------------------ Sección 1 ------------------------------ */
 
  .generalInformation{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  margin-left: 13%;
+  margin-right: 13%;
 }
 
 .information h1 {
@@ -105,14 +107,12 @@ body {
 }
 
 .information {
-  width: 500px;
+  width: 10%;
 }
 
 .centralImg {
-  width: 600px;
-  height: 700px;
   background-image: url(../images/hero-section/hero-image.png);
-  background-size: 550px;
+  background-size: 80%;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -650,7 +650,6 @@ width: 300px;
   padding-left: 20px;
   color: #ffffff;
 }
-
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */

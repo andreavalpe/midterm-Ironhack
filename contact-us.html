@@ -11,7 +11,6 @@
 <body>
 
     <header> <!-- cabecera -->
-        <div id="alert"></div>
         <nav class="navbar">
             <a href="#"> <img src="./resources/images/logos/circle.svg" alt="logo-circle"> </a>
             <ul class="structureNav">
@@ -28,7 +27,7 @@
     </div>
    
     <div class="contactUsDiv">
-    <form class="containerForm"> <!--formulario-->
+    <form id="form" class="containerForm"> <!--formulario-->
         <label style="grid-column: span 2" for="name"> Full Name * </label>
         <input id="fullName" style="grid-column: span 2" type="text" name="name" placeholder="Enter your full name" required>
         
@@ -42,6 +41,7 @@
         <textarea id="message"style="grid-column: span 2" name="message" rows="4" cols="50" placeholder="Write your message here..." required></textarea>
     
         <button onclick= "return sendForm()" style="grid-column: span 2"> Submit </button>
+        <div style="grid-column: span 2" id="alert"></div>
     </form>
     </div>
 
