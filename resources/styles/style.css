@@ -410,6 +410,10 @@ body {
   font-style: normal;
 }
 
+.yellowForm button:hover {
+  background-color: #292e47;
+}
+
 .enterYourEmail {
   text-align: center;
   padding-left: 80px;

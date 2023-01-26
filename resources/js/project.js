@@ -19,7 +19,8 @@ window.onload = function() {
     fetch(`https://jsonplaceholder.typicode.com/posts/${param1}`)
         .then(response => response.json()) //estructura del json. Lo que recupera del fetch lo mete en response y eso lo convierte en json y esto lo envía al siguiente then
         .then(json => { //recibe el valor llamado json del then anterior y se usa para recuperar ciertos datos del objeto
-            let title = json.title //
+            //no se usa el catch porque se ha hecho un condicional que devuelva la primera página, por lo tanto, no debería haber error
+            let title = json.title //se recupera una información concreta del api y se guarda en una variable
             let body = json.body
             // console.log (text);
             // console.log (title);

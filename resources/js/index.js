@@ -11,3 +11,27 @@ function sectionProjects (url) {
 location.href = url;
 }
 
+window.onload = function() {
+
+let projectList = [1,2,3];
+
+    for (let i = 0; i < projectList.length; i++ ) {
+        fetch(`https://jsonplaceholder.typicode.com/posts/${projectList[i]}`)
+        .then(response => response.json()) 
+        .then(json => { 
+            let title = json.title 
+            let body = json.body
+
+        
+        let titleZero = document.getElementById("title" + [i]);
+        titleZero.innerHTML = title; 
+        
+        let bodyZero = document.getElementById("body" + [i]);
+        bodyZero.innerHTML = body; 
+
+        }
+    )};
+}
+function sectionProjects (url) {
+    location.href = url;
+}
