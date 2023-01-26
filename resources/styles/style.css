@@ -633,6 +633,25 @@ width: 300px;
   background-color: #292e47
 }
 
+.submit {
+  background-color: #96c596;
+  font-size: 20px;
+  height: 60px;
+  padding-top: 15px;
+  padding-left: 20px;
+  color: #ffffff;
+}
+
+.error {
+  background-color: #d49191;
+  font-size: 20px;
+  height: 60px;
+  padding-top: 15px;
+  padding-left: 20px;
+  color: #ffffff;
+}
+
+
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
