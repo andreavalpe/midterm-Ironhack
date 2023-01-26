@@ -91,6 +91,7 @@ body {
   grid-template-rows: 1fr;
   margin-left: 13%;
   margin-right: 13%;
+  height: 700px;
 }
 
 .information h1 {
@@ -102,17 +103,13 @@ body {
   font-size: 20px;
   opacity: .6;
   padding-top: 30px;
-  padding-right: 66px;
+  padding-right: 105px;
   line-height: 1.5;
-}
-
-.information {
-  width: 10%;
 }
 
 .centralImg {
   background-image: url(../images/hero-section/hero-image.png);
-  background-size: 80%;
+  background-size: 100%; 
   background-repeat: no-repeat;
   position: relative;
 }
@@ -163,9 +160,7 @@ body {
 
 .projectsAndServices h2 {
   font-size: 40px;
-  margin-left: 220px; 
   font-weight: 540;
-  padding-top: 50px;
 }
 
 .container {
@@ -175,11 +170,6 @@ body {
   margin: 50px 100px; 
   align-items: center;
   padding: 10px 100px;
-}
-
-.projectsImg {
-  width: 330px;
-  height: 230px;
 }
 
 .projectsServices {
@@ -194,7 +184,7 @@ body {
 .projectsServices h3 {
   text-align: left;
   padding: 5px 20px;
-  font-size: 24px;
+  font-size: 16px;
   color: #000000;
   font-weight: 500;
 }
@@ -210,6 +200,17 @@ body {
   font-weight: 600;
 }
 
+.titleProject {
+  font-size: 34px;
+  text-align: left;
+  margin-left: 180px;
+  padding-top: 60px;
+}
+
+.projectsImg {
+  width: 300px;
+  height: 230px;
+}
 /* ------------------------------ Sección 4 ------------------------------ */
 
 .opinions {
@@ -350,6 +351,11 @@ body {
   margin: 20px; 
 }
 
+#service h2 {
+  padding-top: 100px;
+  margin: 1% 13%;
+}
+
 /* ------------------------------ Sección 6 ------------------------------ */
 
 .questions {
@@ -442,7 +448,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  margin-left: 120px;
 }
 
 .footerAdress adress {
@@ -484,8 +489,10 @@ body {
 }
 
 .footer {
-  margin-right: 120px;
-  padding: 100px;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
@@ -514,18 +521,17 @@ body {
 }
 
 .shadowImg {
-  filter: blur(50px); 
+  filter: blur(18px); 
   z-index: 1;
 }
 
 .sizeImg {
-  width: 1100px;
-  height: 500px;
+  width: 1250px;
+  height: 542px;
   position: absolute;
   z-index: 2;
   top: 3px;
-  padding: 10px 20px;
-  margin: 24px 100px;
+  padding: 18px 30px;
 }
 
 .shadowContainer {
@@ -554,6 +560,10 @@ body {
   grid-gap: 50px;
 }
 
+#textProjectHtml {
+  height: 460px;
+}
+
 #textProjectHtml p {
 font-size: 12px;
 }
@@ -564,6 +574,7 @@ font-size: 16px;
 
 #textProjectHtml img {
 width: 300px;
+height: 230px;
 }
 
 #recentProjects {
@@ -580,42 +591,59 @@ width: 300px;
 .titleForm h2 {
   font-size: 50px;
   text-align: left;
-  margin-left: 180px;
-  margin-right: 100px;
-  padding-top: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
 .contactUsDiv {
-  width: 1200px;
-  height: 600px;
   align-items: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .containerForm {
   display: grid;
+  grid-template-columns: 1f 1f;
+  grid-template-rows: repeat (1, auto);
+  grid-gap: 30px;
+}
+
+.containerDiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat (1, auto);
+}
+.containerDivDoble {
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat (4, auto);
-  grid-gap: 20px;
+  grid-template-rows: repeat (2, auto);
+  grid-gap: 10px;
+}
+.containerDivInter {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat (2, auto);
 }
 
 .containerForm label {
   color: #6b708d;
+  height: 40px;
   font-size: 20px;
 }
 
 .containerForm input, textarea {
   background-color: #e4e6f0;  
   border: none; 
-  height: 80px;
+  height: 60px;
   font-size: 16px;
   padding-left: 20px;
 }
 
 .containerForm textarea {
   padding-top: 10px;
+  height: 180px;
 }
 
 .containerForm button {
@@ -625,8 +653,8 @@ width: 300px;
   color: #ffffff;
   font-size: 16px;
   text-align: center;
-  padding: 20px;
-  height: 80px;
+
+  height: 100px;
 }
 
 .containerForm button:hover {
@@ -669,11 +697,72 @@ width: 300px;
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
   /* Your CSS code goes here */
+
+.footerContainer {
+  width: 100%;
+  display: block;
 }
+  
+.containerDivDoble {
+  width: 100%;
+  display: block;
+}
+  
+.containerForm label {
+  width: 100%;
+  display: block;
+}
+  
+.containerForm input, textarea {
+  width: 100%;
+  display: block;
+}
+  
+.containerForm textarea {
+  width: 100%;
+  display: block;
+}
+  
+.containerForm button {
+  width: 100%;
+  display: block;
+}
+
+/* .structureNav {
+  display: none;
+}
+
+input:checked~.structureNav {
+  display: block;
+}
+
+#menu {
+  display: block;
+}
+
+#menu img {
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+} */
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
 /* Your CSS code goes here */
+/* @media (min-width: 766px) {
+  #menu {
+    display: none;
+  }
+}
+
+#menuOcult{
+  display: none;
+} */
 
 /* ------------------------------ Alert ------------------------------ */
 

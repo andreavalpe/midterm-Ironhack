@@ -28,20 +28,29 @@
    
     <div class="contactUsDiv">
     <form id="form" class="containerForm"> <!--formulario-->
-        <label style="grid-column: span 2" for="name"> Full Name * </label>
-        <input id="fullName" style="grid-column: span 2" type="text" name="name" placeholder="Enter your full name" required>
-        
-        <label for="email"> Email </label>
-        <label for="phone"> Phone </label>
-
-        <input id="email" type="email" name="email" placeholder="Enter your email">
-        <input id="phone" type="number" placeholder="Enter your phone" name="phone">
-    
-        <label for="message"> Message * </label>
-        <textarea id="message"style="grid-column: span 2" name="message" rows="4" cols="50" placeholder="Write your message here..." required></textarea>
-    
-        <button onclick= "return sendForm()" style="grid-column: span 2"> Submit </button>
-        <div style="grid-column: span 2" id="alert"></div>
+        <div class="containerDiv">
+            <label  for="name"> Full Name * </label>
+            <input id="fullName" type="text" name="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="containerDivDoble">
+            <div class= "containerDivInter">
+                <label for="email"> Email </label>
+                <input id="email" type="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="containerDivInter">
+                <label for="phone"> Phone </label>
+                <input id="phone" type="number" placeholder="Enter your phone" name="phone">
+            </div>
+        </div>
+        <div class="containerDiv">
+            <label for="message"> Message * </label>
+            <textarea id="message" style="grid-column: span 2" name="message" rows="4" cols="50"
+                placeholder="Write your message here..." required></textarea>
+        </div>
+        <div class="containerDivDoble">
+            <button onclick="return sendForm()" style="grid-column: span 2"> Submit </button>
+            <div style="grid-column: span 2" id="alert"></div>
+        </div>
     </form>
     </div>
 
