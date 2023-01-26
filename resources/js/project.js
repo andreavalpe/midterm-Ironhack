@@ -33,6 +33,12 @@ window.onload = function() {
             let bodyProject = document.getElementById("changingTextProjects");
             // console.log (titleProject.innerHTML);
             bodyProject.innerHTML = body;
+
+            let principalImg = document.getElementById ("principalImg");
+            principalImg.src = (`./resources/images/projects-section/${param1}.jpg`);
+
+            let changingImgProjects = document.getElementById ("changingImgProjects");
+            changingImgProjects.src = (`./resources/images/projects-section/${param1}.jpg`);
     });
 
 //el switch servirá para tener la lista sin el parámetro que han enviado desde la url
@@ -75,14 +81,16 @@ window.onload = function() {
 
         let button = document.getElementById("button" + [i]);
 
+        let img = document.getElementById ("img" + [i]);
+        img.src = (`./resources/images/projects-section/${projectList[i]}.jpg`);        
+
 //se sustituye el onclick actual con uno nuevo usando la lista de la iteración 
         button.onclick = function () {
             location.href = `project.html?param1=${projectList[i]}`;
         };
         }
     )};
-
-}
+};
 
 // se crea una función pasándole una url como parámetro y accedemos a la que hemos puesto en el onclick
 function sectionProjects (url) {
