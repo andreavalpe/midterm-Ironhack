@@ -18,7 +18,23 @@ function sendForm () {
         "phone":phone.value,
         "message": message.value,
     };
-    // console.log (formInfo);
+
+    let correctForm = true;
+    for (let infoSend in formInfo) {
+        if (!formInfo[infoSend]) {
+            console.log (`Falta el ${infoSend} para introducir en el formulario`)
+            correctForm = false;
+        }
+    }
+
+    if (correctForm === true) {
+        console.log (`Los datos introducidos en el formulario son correctos:
+        Full Name: ${formInfo.fullName} 
+        Email ${formInfo.email} 
+        Phone ${formInfo.phone} 
+        Message ${formInfo.message}`);
+    };
+        
     //volvemos a acceder a los elementos del html usando el Dom
     let form = document.getElementById("form");
 //     //como queremos que el formulario tenga en cuenta todas sus casillas usaremos un condicional
