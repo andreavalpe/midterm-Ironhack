@@ -64,7 +64,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
+<!-- La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
 
 En esta sección se puede incluir información como:
 
@@ -76,13 +76,25 @@ En esta sección se puede incluir información como:
 - Licencia del proyecto
 - Contribuciones de las personas en el proyecto.
 
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
+En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él. -->
+
+Este proyecto trata de poner en práctica todos los conceptos aprendidos durante estas tres semanas de bootcam a través de la simulación de una página web usando los lenguajes enseñados, en este caso: Html, Css y JavaScript.
+
+La idea ha sido intentar imitarla a nuestra manera, ya que, como programadores sabemos que podemos llegar al mismo sitio, pero aquí hemos teniendo la oportunidad de ponerle nuestro propio sello. Lo que también ha servido para retarme y aprender sobre lo que puedo llegar hacer.
+
+Entrando en el cómo, llegamos al editor Visual Studio Code, el que nos da la capacidad de ver cada etiqueta con su color, una auto complementación de la misma, las identaciones y otras funciones que permiten programar más cómodamente.
+
+Para acceder al proyecto principal se podrá ir desde mi propio repositorio, descargando en archivo zen o haciendo un clon para poder ver todo el contenido y quisiera destacar sus apartados dinámicos, el formulario y que recent projects se recupera desde la api json.
+
+Por lo que respecta a las licencias y creadores, han estado detrás tanto Ironhack como los profesores encargados de este Front-End intenso: Aleix, Diego y Jarko, a los que agradezco tanto la ayuda global como el aprendizaje que me han aportado.
+
+Por último, sobre la documentación adicional comentar que tanto los apuntes como Google han sido unos grandes aliados para poder avanzar en el proyecto y así no atascarme.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
+<!-- La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
 
 En esta sección se puede incluir información como:
 
@@ -92,23 +104,42 @@ En esta sección se puede incluir información como:
 - Servicios en la nube utilizados (si corresponde)
 - Otros recursos o tecnologías relacionadas con el proyecto.
 
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
+En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva. -->
+
+En la primera sección de este Readme englobo los tres lenguajes y el programa que he usado para hacer la página web, pero ahora quiero detallar esto mismo.
+
+- Html: se basa en la estructura de la página web, el cómo he querido dividirla para que se viera en los bloques adecuados con los elementos que le tocaban.
+
+- Css: es la capacidad de estilar ilimitadamente, es decir darle tamaños, colores, darle formato, etc hasta conseguir que sea una web atractiva visualmente.
+
+- JavaScript: en este caso se ha usado el lenguaje para hacer funciones que recuperaran el api proporcionado (Json), manipularlo a través del dom para que la sección recent projects tanto del home como de cada proyecto individual mostrará las imágenes, información y textos rescatados, y también para hacerlo al revés, en otras palabras, enviar la información del formulario a un formato Json.
+  Este lenguaje en concreto tampoco tiene limitaciones, ha dado la capacidad a través de funciones, loops, y otros de acceder a diferentes textos e imágenes siguiendo la lista o el parámetro pasado.
+
+De nuevo vuelvo a mencionar Visual Studio Code para añadirlo a la especificación, además de incluir Github y Vercel que han sido las dos grandes plataformas para guardar todos los cambios en la nube.
+
+- Visual Studio Code: es el editor que me ha dado la capacidad de programar diferentes lenguajes, conectarlos, editarlos e ir probando como quedaban en la nube.
+
+- GitHub: es un servicio que aloja las versiones del git para que otros desarrolladores puedan colaborar, realizar cambio o tener un seguimiento del progreso, además de evidentemente tener acceso a todo el proyecto.
+
+- Vercel: esta plataforma de construcción y alojamiento ha dado un sistema de desarrollo e integración continua para poder ver cada versión de manera automatizada.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
-#### Backlog
+<!-- #### Backlog
 
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
 
-#### Day One
+#### Day One -->
+
+En este punto accedemos a mi planteamiento diario para realizar cada punto del proyecto, enseñando las ideas previas y si se han cumplido o que se ha hecho durante estos días.
 
 #### Day One
 
 ###### Lunes 23, Enero 2023
 
-- [x] Realizar estructura html de contact us e index.html.
+- [x] Realizar estructura html de contact-us e index.html.
 - [x] Hacer pruebas de java para imitar la cabecera y el pie de página.
 
 #### Day Two
@@ -122,18 +153,25 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Miercoles 25, Enero 2023
 
 - [x] Seguir estilando y perfeccionar en css.
-- [ ] Hacer el fetch para poder mirar mañana el proyecto avanzado.
+- [x] Empezar a hacer el fetch.
 
 #### Day Four
 
-- [ ] Acabar de perfeccionar el css y el js.
+- [x] Seguir perfeccionando el css y el js.
 - [ ] Hacer el mediaqueries.
 
 ###### Jueves 26, Enero 2023
 
 #### Day Five
 
+- [x] Acabar de perfeccionar el css y el js.
+- [x] Dar estructura css a project.html
+
 ###### Viernes 27, Enero 2023
+
+- [x] Acabar de actualizar el Readme.
+- [x] Hacer la presentación para el proyecto.
+- [ ] Intentar hacer la web responsive y el mediaqueries.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +179,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
+<!-- La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
 
 En esta sección se puede incluir información como:
 
@@ -154,9 +192,25 @@ En resumen, la sección "sobre mí" es una excelente manera de brindar a los usu
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name) -->
 
-Presentation Link: [Insert here your presentation link](insert-link-here)
+<!-- Presentation Link: [Insert here your presentation link](insert-link-here) -->
+
+Sobre mi puedo empezar con lo más importante, mi nombre, Hola, me llamo Andrea Valencia Perez y tengo 27 años.
+
+Soy una persona que viene de sectores totalmente diferentes de la programación, y os preguntareis porque estoy aquí, básicamente me he enamorado.
+
+La programación siempre me ha llamado la atención, pero tenía miedo de que fuera complicada, de que no estuviera echa para ello y de encallarme, pero hice un salto de la zona de confort porque al final si alguien quiere un cambio tiene que ir a por él.
+
+Definitivamente ha sido una buena decisión, aunque muchas veces creo que puedo aprender más y me frustro, busco soluciones, indago sobre la respuesta y eso me hace querer saber más, por ello me planteo seguir perfeccionando mi aprendizaje, porque, aunque este proyecto ha sido el primero, mi objetivo es mejorar poco a poco consiguiendo crecer como persona y programadora.
+
+Aquí dejo pequeños datos por si queréis contactar conmigo 😊,
+
+Andrea Valencia Perez – andreavalpe@hotmail.com
+
+Perfil GitHub - https://github.com/andreavalpe
+
+Presentación proyecto - https://prezi.com/p/edit/3ocz2oemphjb/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +218,7 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## Agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
+<!-- La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
 
 En esta sección se puede incluir información como:
 
@@ -172,16 +226,29 @@ En esta sección se puede incluir información como:
 - Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
 - Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
 
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
+En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo. -->
 
-- [Icon Libraries](insert-link-here)
-- [Google Font Libraries](insert-link-here)
+Aquí quiero aprovechar y hacer un agradecimiento general a todos aquellos que hayan aportado su granito de arena para obtener un resultado del que me siento orgullosa, y también aquellos que se han tomado la molestia de llegar hasta aquí y querer conocerme o curiosear sobre mi trabajo.
+
+No me quiero olvidar de hacer algunos individuales como a:
+
+- Ironhack por darme la oportunidad de retarme, enseñarme, etc.
+
+- Aleix, Diego y Jarko los docentes que han hecho posible el curso y el aprendizaje, y han estado ahí para las dudas y frustraciones.
+
+- Gonzalo, mi pareja, programador y apoyo fundamental tanto personalmente como en posibles dudas.
+
+- Eiden y Ruben, mis compañeros en las salas de zoom para compartir limitaciones, dificultades, ayuda, en resumen, un pequeño grupo de apoyo que me ha echado una mano para seguir adelante.
+
+En definitiva, gracias a todos.
+
+- [Google Font Libraries](https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
+<!-- La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
 
 En esta sección se puede incluir información como:
 
@@ -190,11 +257,17 @@ En esta sección se puede incluir información como:
 - Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
 - Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
 
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
+En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos. -->
+
+Para mi el mayor reto sin duda ha sido JavaScript porque, aunque entiendo el lenguaje aún me falta practicar la lógica, no obstante, pensaba en donde quería llegar, como quería hacerlo y hacía una estructura del planteamiento para ver la mejor forma de hacerlo. Igualmente es algo que quiero perfeccionar, coger práctica y así quitarme ese miedo, por ello, después de este proyecto me he planteado ejercicios y retos para seguir trabajándolo.
+
+Asimismo, también me he dado cuenta de las limitaciones y de que mi personalidad perfeccionista ha sido un poco lastre a la hora de querer hacer la web perfecta, no obstante, eso mismo es lo que me hace querer que las cosas estén bien hechas y consigue el resultado que he obtenido, del que estoy contenta, porque visualmente es atractiva y consigue atraer a cada parte de ella.
+
+Igualmente me hubiera gustado poderla hacer responsive de manera que las cosas se ajustarán a la pantalla y no se movieran al tener un tamaño diferente al de la pantalla de mi ordenador, por tanto, será algo que me propondré para mi siguiente proyecto, demostrar mi mejoría, para que con el tiempo que se me da consiga grandes resultados.
 
 ## Grande Error
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
+<!-- La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
 
 En esta sección se puede incluir información como:
 
@@ -203,4 +276,8 @@ En esta sección se puede incluir información como:
 - Soluciones implementadas para corregir el error.
 - Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
 
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
+En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron. -->
+
+Como he comentado en desafíos, mi mayor error ha sido no picar el lenguaje teniendo en cuenta los tamaños responsivos de la imagen, lo que hace que si abres la web en un tamaño inadecuado todos los elementos se muevan y restructuren mal la página.
+
+He intentado solucionarlo cambiando los píxeles por porcentajes y quitando márgenes o paddings porque muchas cosas las he centrado de ese modo aunque debería haberlo hecho con el div, pero el problema ha sido el tiempo, quería abarcar muchas cosas y al final me he centrado en tener un resultado que me gustará, aún así, como he comentado antes, el gran reto será demostrar que he sabido solucionarlo en mi próximo proyecto y evolucionar mi código enseñando que he aprendido de mis errores, que he código buenas prácticas, y que obtengo los resultados esperados en el tiempo esperado.
