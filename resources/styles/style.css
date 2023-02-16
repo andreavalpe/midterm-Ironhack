@@ -698,7 +698,12 @@ height: 230px;
 @media (max-width: 766px) {
   /* Your CSS code goes here */
 
-.footerContainer {
+body {
+  margin: 2% 8%;
+}
+
+
+  .footerContainer {
   width: 100%;
   display: block;
 }
@@ -726,6 +731,131 @@ height: 230px;
 .containerForm button {
   width: 100%;
   display: block;
+}
+
+.navbar {
+  width: 90%;
+  padding: 4%;
+}
+
+.information h1 {
+  font-size: 20px;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.information p {
+  font-size: 14px;
+  padding-right: 0;
+  text-align: center;
+}
+
+.boxingLeft {
+  display: none;
+}
+
+.boxingRight {
+  display: none;
+}
+
+.generalInformation {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    justify-content: center;
+}
+
+.workBoxes {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+
+.seeOurWork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralImg {
+  background-size: 80%;
+}
+
+.logoMarcas {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#recentProjects {
+  margin: 8% 2%;
+}
+
+#containerProjectHtml {
+  margin: 4% 20%;
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.opinionLeft {
+  display: none;
+}
+
+.opinionRight {
+  display: none;
+}
+
+.opinions {
+  margin: 4% 10%;
+}
+
+.opinionClients {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.titleOpinions {
+  padding-bottom: 2%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.opinionCenter h3 {
+  padding-top: 10%;
+  font-size: 1em;
+  text-align: center;
+}
+
+.kristinImg {
+  padding-top: 10%;
+}
+
+.container {
+  display: block;
+}
+
+.yellowForm {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* .structureNav {
