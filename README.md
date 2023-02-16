@@ -84,7 +84,7 @@ La idea ha sido intentar imitarla a nuestra manera, ya que, como programadores s
 
 Entrando en el cómo, llegamos al editor Visual Studio Code, el que nos da la capacidad de ver cada etiqueta con su color, una auto complementación de la misma, las identaciones y otras funciones que permiten programar más cómodamente.
 
-Para acceder al proyecto principal se podrá ir desde mi propio repositorio, descargando en archivo zen o haciendo un clon para poder ver todo el contenido y quisiera destacar sus apartados dinámicos, el formulario y que recent projects se recupera desde la api json.
+Para acceder al proyecto principal se podrá ir desde mi propio repositorio, descargando en archivo zen o haciendo un clon para poder ver todo el contenido. También quisiera aprovechar la ocasión para destacar sus apartados dinámicos como el formulario y que recent projects se recupera desde la api json, para dar más visibilidad a los mismos.
 
 Por lo que respecta a las licencias y creadores, han estado detrás tanto Ironhack como los profesores encargados de este Front-End intenso: Aleix, Diego y Jarko, a los que agradezco tanto la ayuda global como el aprendizaje que me han aportado.
 
@@ -265,6 +265,10 @@ Asimismo, también me he dado cuenta de las limitaciones y de que mi personalida
 
 Igualmente me hubiera gustado poderla hacer responsive de manera que las cosas se ajustarán a la pantalla y no se movieran al tener un tamaño diferente al de la pantalla de mi ordenador, por tanto, será algo que me propondré para mi siguiente proyecto, demostrar mi mejoría, para que con el tiempo que se me da consiga grandes resultados.
 
+---
+
+A día de hoy 16-02-2023 y habiéndole dedicado un poco más de tiempo al proyecto para arreglar estos puntos, he visto que tengo que empezar con medidas adecuadas para poder realizar la wen responsive. He podido arreglarla y he visto que en el proyecto de vue lo he tenido más en cuenta y seguro que a partir de aquí seguiré mejorando cada día más estos detalles.
+
 ## Grande Error
 
 <!-- La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
@@ -281,3 +285,7 @@ En resumen, la sección "grande error" es una forma de ser transparente sobre lo
 Como he comentado en desafíos, mi mayor error ha sido no picar el lenguaje teniendo en cuenta los tamaños responsivos de la imagen, lo que hace que si abres la web en un tamaño inadecuado todos los elementos se muevan y restructuren mal la página.
 
 He intentado solucionarlo cambiando los píxeles por porcentajes y quitando márgenes o paddings porque muchas cosas las he centrado de ese modo aunque debería haberlo hecho con el div, pero el problema ha sido el tiempo, quería abarcar muchas cosas y al final me he centrado en tener un resultado que me gustará, aún así, como he comentado antes, el gran reto será demostrar que he sabido solucionarlo en mi próximo proyecto y evolucionar mi código enseñando que he aprendido de mis errores, que he código buenas prácticas, y que obtengo los resultados esperados en el tiempo esperado.
+
+---
+
+Tal como he mencionado en el aportado anterior, a día de hoy 16-02-2023 y habiéndole dedicado un tiempo extra para presentarlo adecuadamente, solucionando poco a poco mis errores y mejorando en mis técnicas haciendo que cada día mejore un poco más y tenga más en cuenta las malas prácticas cometidas. Ya sabemos que todo es cuestión de práctica, así que seguiré trabajando en ello prosperando cada día más.
