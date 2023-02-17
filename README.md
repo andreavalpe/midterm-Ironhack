@@ -267,7 +267,7 @@ Igualmente me hubiera gustado poderla hacer responsive de manera que las cosas s
 
 ---
 
-A día de hoy 16-02-2023 y habiéndole dedicado un poco más de tiempo al proyecto para arreglar estos puntos, he visto que tengo que empezar con medidas adecuadas para poder realizar la wen responsive. He podido arreglarla y he visto que en el proyecto de vue lo he tenido más en cuenta y seguro que a partir de aquí seguiré mejorando cada día más estos detalles.
+<!-- A día de hoy 16-02-2023 y habiéndole dedicado un poco más de tiempo al proyecto para arreglar estos puntos, he visto que tengo que empezar con medidas adecuadas para poder realizar la wen responsive. He podido arreglarla y he visto que en el proyecto de vue lo he tenido más en cuenta y seguro que a partir de aquí seguiré mejorando cada día más estos detalles. -->
 
 ## Grande Error
 
@@ -288,4 +288,4 @@ He intentado solucionarlo cambiando los píxeles por porcentajes y quitando már
 
 ---
 
-Tal como he mencionado en el aportado anterior, a día de hoy 16-02-2023 y habiéndole dedicado un tiempo extra para presentarlo adecuadamente, solucionando poco a poco mis errores y mejorando en mis técnicas haciendo que cada día mejore un poco más y tenga más en cuenta las malas prácticas cometidas. Ya sabemos que todo es cuestión de práctica, así que seguiré trabajando en ello prosperando cada día más.
+<!-- Tal como he mencionado en el aportado anterior, a día de hoy 16-02-2023 y habiéndole dedicado un tiempo extra para presentarlo adecuadamente, solucionando poco a poco mis errores y mejorando en mis técnicas haciendo que cada día mejore un poco más y tenga más en cuenta las malas prácticas cometidas. Ya sabemos que todo es cuestión de práctica, así que seguiré trabajando en ello prosperando cada día más. -->

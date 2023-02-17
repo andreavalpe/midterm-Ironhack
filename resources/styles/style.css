@@ -843,7 +843,30 @@ body {
   margin: 0;
 }
 
+#changingTitleProjects {
+  margin: 2% 4%; 
+  font-size: 2em;
+}
 
+.subtitle {
+  margin: 2% 4%;
+}
+
+.shadowContainer {
+  margin: 2% 8%; 
+}
+
+#changingImgProjects {
+  height: 80%;
+  width: 80%;
+}
+
+.sizeImg {
+  height: 80%;
+  width: 80%;
+  position: relative;
+  padding: 0;
+}
 
 
 
