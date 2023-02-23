@@ -261,7 +261,7 @@ Asimismo, también me he dado cuenta de las limitaciones y de que mi personalida
 
 Igualmente me hubiera gustado poderla hacer responsive de manera que las cosas se ajustarán a la pantalla y no se movieran al tener un tamaño diferente al de la pantalla de mi ordenador, por tanto, será algo que me propondré para mi siguiente proyecto, demostrar mi mejoría, para que con el tiempo que se me da consiga grandes resultados.
 
-A día de hoy 16-02-2023 y habiéndole dedicado un poco más de tiempo al proyecto para arreglar estos puntos, he visto que tengo que empezar con medidas adecuadas para poder realizar la web responsive. He podido arreglarla y he visto que en el proyecto de vue lo he tenido más en cuenta y seguro que a partir de aquí seguiré mejorando cada día más estos detalles, si que me falta conseguir el menu hamburger
+A día de hoy 16-02-2023 y habiéndole dedicado un poco más de tiempo al proyecto para arreglar estos puntos, he visto que tengo que empezar con medidas adecuadas para poder realizar la web responsive. He podido arreglarla y he visto que en el proyecto de vue lo he tenido más en cuenta y seguro que a partir de aquí seguiré mejorando cada día más estos detalles, si que me falta conseguir el menu hamburger pero implementaré en el próximo proyecto que lo necesite.
 
 ## Grande Error
 
