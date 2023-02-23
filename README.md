@@ -131,37 +131,26 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 En este punto accedemos a mi planteamiento diario para realizar cada punto del proyecto, enseñando las ideas previas y si se han cumplido o que se ha hecho durante estos días.
 
-#### Day One
-
 ###### Lunes 23, Enero 2023
 
 - [x] Realizar estructura html de contact-us e index.html.
 - [x] Hacer pruebas de java para imitar la cabecera y el pie de página.
 
-#### Day Two
-
 ###### Martes 24, Enero 2023
 
 - [x] Empezar a darle estructura a la parte css de index.html.
-
-#### Day Three
 
 ###### Miercoles 25, Enero 2023
 
 - [x] Seguir estilando y perfeccionar en css.
 - [x] Empezar a hacer el fetch.
 
-#### Day Four
-
-- [x] Seguir perfeccionando el css y el js.
-- [ ] Hacer el mediaqueries.
-
 ###### Jueves 26, Enero 2023
-
-#### Day Five
 
 - [x] Acabar de perfeccionar el css y el js.
 - [x] Dar estructura css a project.html
+- [x] Seguir perfeccionando el css y el js.
+- [ ] Hacer el mediaqueries.
 
 ###### Viernes 27, Enero 2023
 
