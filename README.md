@@ -149,7 +149,6 @@ En este punto accedemos a mi planteamiento diario para realizar cada punto del p
 
 - [x] Acabar de perfeccionar el css y el js.
 - [x] Dar estructura css a project.html
-- [x] Seguir perfeccionando el css y el js.
 - [ ] Hacer el mediaqueries.
 
 ###### Viernes 27, Enero 2023
