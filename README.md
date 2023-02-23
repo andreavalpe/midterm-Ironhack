@@ -106,16 +106,12 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva. -->
 
-En la primera sección de este Readme englobo los tres lenguajes y el programa que he usado para hacer la página web, pero ahora quiero detallar esto mismo.
-
 - Html: se basa en la estructura de la página web, el cómo he querido dividirla para que se viera en los bloques adecuados con los elementos que le tocaban.
 
 - Css: es la capacidad de estilar ilimitadamente, es decir darle tamaños, colores, darle formato, etc hasta conseguir que sea una web atractiva visualmente.
 
 - JavaScript: en este caso se ha usado el lenguaje para hacer funciones que recuperaran el api proporcionado (Json), manipularlo a través del dom para que la sección recent projects tanto del home como de cada proyecto individual mostrará las imágenes, información y textos rescatados, y también para hacerlo al revés, en otras palabras, enviar la información del formulario a un formato Json.
   Este lenguaje en concreto tampoco tiene limitaciones, ha dado la capacidad a través de funciones, loops, y otros de acceder a diferentes textos e imágenes siguiendo la lista o el parámetro pasado.
-
-De nuevo vuelvo a mencionar Visual Studio Code para añadirlo a la especificación, además de incluir Github y Vercel que han sido las dos grandes plataformas para guardar todos los cambios en la nube.
 
 - Visual Studio Code: es el editor que me ha dado la capacidad de programar diferentes lenguajes, conectarlos, editarlos e ir probando como quedaban en la nube.
 
@@ -265,9 +261,7 @@ Asimismo, también me he dado cuenta de las limitaciones y de que mi personalida
 
 Igualmente me hubiera gustado poderla hacer responsive de manera que las cosas se ajustarán a la pantalla y no se movieran al tener un tamaño diferente al de la pantalla de mi ordenador, por tanto, será algo que me propondré para mi siguiente proyecto, demostrar mi mejoría, para que con el tiempo que se me da consiga grandes resultados.
 
----
-
-<!-- A día de hoy 16-02-2023 y habiéndole dedicado un poco más de tiempo al proyecto para arreglar estos puntos, he visto que tengo que empezar con medidas adecuadas para poder realizar la wen responsive. He podido arreglarla y he visto que en el proyecto de vue lo he tenido más en cuenta y seguro que a partir de aquí seguiré mejorando cada día más estos detalles. -->
+A día de hoy 16-02-2023 y habiéndole dedicado un poco más de tiempo al proyecto para arreglar estos puntos, he visto que tengo que empezar con medidas adecuadas para poder realizar la web responsive. He podido arreglarla y he visto que en el proyecto de vue lo he tenido más en cuenta y seguro que a partir de aquí seguiré mejorando cada día más estos detalles, si que me falta conseguir el menu hamburger
 
 ## Grande Error
 
@@ -286,6 +280,4 @@ Como he comentado en desafíos, mi mayor error ha sido no picar el lenguaje teni
 
 He intentado solucionarlo cambiando los píxeles por porcentajes y quitando márgenes o paddings porque muchas cosas las he centrado de ese modo aunque debería haberlo hecho con el div, pero el problema ha sido el tiempo, quería abarcar muchas cosas y al final me he centrado en tener un resultado que me gustará, aún así, como he comentado antes, el gran reto será demostrar que he sabido solucionarlo en mi próximo proyecto y evolucionar mi código enseñando que he aprendido de mis errores, que he código buenas prácticas, y que obtengo los resultados esperados en el tiempo esperado.
 
----
-
-<!-- Tal como he mencionado en el aportado anterior, a día de hoy 16-02-2023 y habiéndole dedicado un tiempo extra para presentarlo adecuadamente, solucionando poco a poco mis errores y mejorando en mis técnicas haciendo que cada día mejore un poco más y tenga más en cuenta las malas prácticas cometidas. Ya sabemos que todo es cuestión de práctica, así que seguiré trabajando en ello prosperando cada día más. -->
+Tal como he mencionado en el aportado anterior, a día de hoy 16-02-2023 y habiéndole dedicado un tiempo extra para presentarlo adecuadamente, solucionando poco a poco mis errores y mejorando en mis técnicas haciendo que cada día mejore un poco más y tenga más en cuenta las malas prácticas cometidas. Ya sabemos que todo es cuestión de práctica, así que seguiré trabajando en ello prosperando cada día más.
